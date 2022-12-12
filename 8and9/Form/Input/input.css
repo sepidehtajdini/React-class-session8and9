@@ -1,0 +1,60 @@
+label {
+    display: block;
+    font-size: larger;
+    padding: 5px;
+}
+
+.redBorder {
+    border-color: tomato;
+    box-shadow: 0 0 8px red;
+}
+
+.greenBorder {
+    border-color: rgb(5, 252, 5);
+    box-shadow: 0 0 8px green;
+}
+.redLabel {
+    color: darkred;
+    text-shadow: 0 0 5px tomato;
+}
+
+.greenLabel {
+    color: rgb(2, 73, 2);
+    text-shadow: 0 0 5px rgb(8, 230, 8);
+}
+input:focus {
+    background-color: pink;
+}
+input {
+    display: block;
+    padding: 0.375rem 0.75rem;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-clip: padding-box;
+    color: #495057;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 80%;
+    margin-top: 10px;
+}
+.invalidFeedback {
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    max-width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+    font-size: .9rem;
+    line-height: 1;
+    color: white;
+    background-color: rgba(220, 53, 69, .8);
+    border-radius: 0.2rem;
+}
+.validated {
+    display: none;
+}
+
+.form_row {
+    position: relative;
+}
