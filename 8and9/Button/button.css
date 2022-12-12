@@ -1,0 +1,38 @@
+button {
+    display: block;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 0.3rem 0.7rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.purple-btn {
+    background-color: #8c00ff;
+    border-color: #8c00ff;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.purple-btn:hover {
+    background-color: #7b0bd7;
+    box-shadow: 0 0 0 2px #7b0bd7;
+    border-color: #7b0bd7;
+}
+
+.violet-btn {
+    background-color: #d271df;
+    border-color: #8c00ff;
+    color: #3b006b;
+    font-size: 18px;
+    min-width: 200px;
+}
+
+.violet-btn:hover {
+    background-color: #8c00ff;
+    border-color: #7b0bd7;
+    color: white;
+    box-shadow: 0 0 5px 1px #3b006b;
+}
