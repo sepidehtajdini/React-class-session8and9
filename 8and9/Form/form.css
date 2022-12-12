@@ -1,0 +1,41 @@
+.form {
+    margin: auto;
+    justify-content: space-around;
+    background-color: rgb(139, 114, 160);
+    border: 2px solid rgb(82, 67, 94);
+    width: 40vw;
+    height: 800px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+textarea {
+    min-width: 80%;
+    min-height: 150px;
+    margin-top: 10px;
+}
+
+.category {
+    position: relative;
+    display: inline-block;
+}
+
+.category-btn {
+    min-width: 200px;
+}
+
+.category-content {
+    margin-right: 10px;
+    margin-top: -9px;
+    position: absolute;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
