@@ -1,0 +1,46 @@
+.container {
+    width: 70vw;
+    margin: auto;
+    direction: rtl;
+}
+
+.container_post {
+    height: 500px;
+    border-top-left-radius: 18%;
+    border-bottom-right-radius: 18%;
+    background: linear-gradient(250deg, rgb(209, 99, 209), rgb(49, 25, 49));
+    border: 3px solid purple;
+}
+
+.container-btn {
+    height: 50px;
+}
+
+.postTitle {
+    display: flex;
+    text-align: center;
+    text-shadow: 0 0 12px rgb(209, 99, 209);
+    margin-right: 15vw;
+    padding: 10px;
+    gap: 50px;
+}
+
+.postBody {
+    padding: 20px;
+    font-size: large;
+}
+
+.postBody_textArea {
+    color: purple;
+    background-color: white;
+    font-size: 20px;
+    width: 40vw;
+    box-sizing: border-box;
+    height: 200px;
+    margin: auto;
+    direction: rtl;
+    white-space: pre;
+    text-overflow: clip;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
